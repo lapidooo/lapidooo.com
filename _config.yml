@@ -6,6 +6,6 @@ theme: jekyll-theme-cayman
 google_analytics: UA-55798049-1
 gems:
   - jekyll-sitemap
-show_downloads: "false"
+show_downloads: false
 github:
   is_project_page: false
