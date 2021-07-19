@@ -8,6 +8,6 @@ gems:
   - jekyll-sitemap
 show_downloads: false
 github:
-  is_project_page: false
+  is_project_page: true
   zip_url: ""
   tar_url: ""
