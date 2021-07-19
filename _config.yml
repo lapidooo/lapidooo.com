@@ -9,3 +9,5 @@ gems:
 show_downloads: false
 github:
   is_project_page: false
+  zip_url: ""
+  tar_url: ""
