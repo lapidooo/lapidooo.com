@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 .page-header .btn {
   visibility: hidden;
+  display: none;
 }
 .project-tagline {
   background-image: url('/assets/img/favicon.png');
@@ -19,4 +20,5 @@
 }
 .site-footer-credits {
   visibility: hidden;
+  display: none;
 }
