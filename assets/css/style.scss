@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+.page-header {
+  padding: 1rem 6rem;
+}
 .page-header .btn {
   visibility: hidden;
   display: none;
@@ -15,8 +18,7 @@
   max-height: 256px;
   min-height: 64px;
   min-width: 64px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .site-footer-credits {
   visibility: hidden;
