@@ -1,7 +1,7 @@
 domain: "lapidooo.com"
 url: "https://lapidooo.com"
 title: "lapidooo"
-description: " "
+description: ""
 theme: jekyll-theme-cayman
 google_analytics: UA-55798049-1
 gems:
