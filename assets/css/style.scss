@@ -20,7 +20,14 @@
   min-width: 64px;
   margin: 0 auto;
 }
-.site-footer-credits {
+.site-footer {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 6rem;
+  width: 100%;
+}
+.site-footer .site-footer-credits {
   visibility: hidden;
   display: none;
 }
