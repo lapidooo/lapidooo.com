@@ -7,8 +7,13 @@
 }
 .project-tagline {
   background-image: url('/assets/img/favicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   max-width: 256px;
   max-height: 256px;
+  min-height: 64px;
+  min-width: 64px;
 }
 .site-footer-credits {
   visibility: hidden;
