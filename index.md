@@ -9,4 +9,3 @@
 * [lapidooo.github.io](https://github.com/lapidooo/lapidooo.github.io){:target="_blank"}
 
 ----
-{% include cookie-consent.html %}
