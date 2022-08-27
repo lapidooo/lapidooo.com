@@ -1,7 +1,7 @@
 // Simple Cookie Consent
 
 var cookieNoticeHtml = document.createElement('div');
-cookieNoticeHtml.innerHTML = '<span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="cookie-notice-accept btn btn-primary btn-sm">Approve</a><a id="cookie-notice-reject" class="cookie-notice-reject btn btn-primary btn-sm">Reject</a>';
+cookieNoticeHtml.innerHTML = '<span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="cookie-notice-accept btn btn-primary btn-sm">Approve</a><a id="cookie-notice-moreinfo" class="cookie-notice-moreinfo btn btn-primary btn-sm">More Info</a>';
 cookieNoticeHtml.id = 'cookie-notice';
 cookieNoticeHtml.className = 'cookie-notice';
 
@@ -41,19 +41,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
     }
-	else if(readCookie('cookie-notice-dismissed-reject')=='true') {	}
     else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
     
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-dismissed-accept','true',31);
-        document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
-    });
-	
-	document.getElementById('cookie-notice-reject').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed-reject','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
         location.reload();
     });
