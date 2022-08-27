@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         location.reload();
     });
 	
-	    document.getElementById('cookie-notice-reject').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed-reject','false',31);
+	document.getElementById('cookie-notice-reject').addEventListener("click",function() {
+        createCookie('cookie-notice-dismissed-reject','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
         location.reload();
     });
