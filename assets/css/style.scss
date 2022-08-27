@@ -39,8 +39,9 @@
   text-align: center; 
   position: fixed; 
   bottom: 0; 
-  width: calc(100% - 2rem); 
-  background: #222; 
+  right: 0
+  width: calc(30% - 2rem); 
+  background-color: rgba(34, 34, 34, 7);
   color: rgba(255,255,255,0.8);
 }
 
