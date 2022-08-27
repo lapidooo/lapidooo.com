@@ -4,7 +4,10 @@ var cookieNoticeHtml = document.createElement('div');
 cookieNoticeHtml.innerHTML = '<span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="cookie-notice-accept btn btn-primary btn-sm">Approve</a><a href="/privacy" class="btn btn-primary btn-sm">More info</a>';
 cookieNoticeHtml.id = 'cookie-notice';
 cookieNoticeHtml.className = 'cookie-notice';
-document.body.appendChild(cookieNoticeHtml);
+
+document.addEventListener("DOMContentLoaded", function(event) {
+   document.body.appendChild(cookieNoticeHtml);
+});
 
 
 function createCookie(name,value,days) {
